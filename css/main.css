@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&display=swap");
 :root {
   --main_color: #006aff;
-  --dark_color: #323031;
+  --dark_color: #394867;
 }
 * {
   margin: 0;
@@ -13,7 +13,10 @@
   outline: none;
 }
 body {
-  background: #eaeaea;
+  background: #F1F6F9;
+}
+img {
+  width: 100%;
 }
 
 /* Button Style element */
@@ -93,4 +96,267 @@ header .search button ion-icon {
 }
 header .auth {
   background: var(--main_color);
+}
+main {
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+}
+aside {
+  width: 8%;
+  background: #fff;
+  border-radius: 30px 30px 0 0;
+}
+aside ul {
+  text-align: center;
+}
+aside ul li {
+  margin: 0 10px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #ccc;
+}
+aside ul li a ion-icon {
+  padding: 20px 0 2px 0;
+  font-size: 34px;
+  color: var(--main_color);
+}
+aside ul li a {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: var(--dark_color);
+}
+section {
+  width: 92%;
+  background: #F1F6F9;
+}
+section .sectionnav ul {
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 30px 30px 0 0;
+}
+section .sectionnav ul li {
+  margin: 15px 0;
+  padding: 10px 20px;
+  background: #C4DDFF;
+  border-radius: 50px;
+}
+section .sectionnav ul li:hover {
+  background: var(--main_color);
+}
+section .sectionnav ul li:hover a {
+  color: #fff;
+}
+section .sectionnav ul li a {
+  color: #394867;
+  text-transform: capitalize;
+}
+.sectionnav {
+  border-bottom: 5px solid #F1F6F9;
+}
+.newsbanner {
+  background: #fff;
+  border-radius: 0 0 30px 30px;
+}
+.newsbanner img {
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+}
+
+.newstext p {
+  margin: 0 1000px 0px 0;
+  padding: 5px 20px;
+  font-size: 25px;
+  color: #006aff;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px;
+}
+.coursesection {
+  width: 70%;
+  border-radius: 30px 30px 0 0;
+}
+.coursetext p {
+  padding: 20px 20px;
+  font-size: 25px;
+  color: #006aff;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px;
+  background: #fff;
+  border-radius: 30px 30px 0 0;
+}
+.courseitemcon {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.courseitem img {
+  width: 100%;
+}
+.courseitem {
+  width: 50%;
+  margin-top: 5px;
+  background: #fff;
+}
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--dark_color);
+}
+.courseitem p {
+  color: var(--dark_color);
+  margin: 10px 0 20px 0;
+}
+.rating {
+  color: var(--main_color);
+  word-spacing: 10px;
+  font-size: 20px;
+}
+.footeritem {
+  margin-top: 30px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.footeritem del {
+  text-decoration: line-through;
+  color: gray;
+}
+.footeritem span {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+.btn {
+  display: flex;
+  gap: 5px;
+}
+button {
+  padding: 5px 20px;
+  background-color: var(--main_color);
+  border: none;
+}
+button a {
+  color: #fff;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+button a ion-icon {
+  font-size: 25px;
+}
+button a i {
+  font-size: 25px;
+}
+.btn1 {
+  border-radius: 30px 0 0 30px;
+}
+.btn2 {
+  border-radius: 0 30px 30px 0;
+}
+.courseinfo {
+  width: 30%;
+  border-radius: 30px 30px 0 0;
+}
+.courseinfo .infotext p {
+  padding: 20px 20px;
+  font-size: 25px;
+  color: #006aff;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px;
+  background: #fff;
+  border-radius: 30px 30px 0 0;
+}
+.mainsection {
+  display: flex;
+  margin-top: 20px;
+  gap: 5px;
+}
+.infobox {
+  margin-top: 5px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.infobox h1 {
+  color: var(--dark_color);
+  text-align: center;
+}
+.logotext {
+  margin: 15px 0;
+  display: flex;
+}
+.logotext .logo img {
+  width: 70%;
+}
+.logotext .text {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.logotext .text p  {
+  color: gray;
+  font-size: 20px;
+}
+.logotext .text span {
+  color: var(--main_color);
+  font-size: 26px;
+}
+.infobox .ultext p {
+  margin-left: 15px;
+  color: var(--main_color);
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.infobox ul {
+  margin: 15px 0;
+}
+.infobox ul li a{
+  margin-left: 15px;
+  color: var(--dark_color);
+  font-size: 20px;
+}
+.infobox ul li a ion-icon, i {
+  padding: 0 20px 0 20px;
+  color: var(--main_color);
+  font-size: 27px;
+}
+.infobox .price {
+  margin: 30px 0 10px 20px;
+}
+.infobox .price del {
+  text-decoration: line-through;
+  color: gray;
+}
+.infobox .price span {
+  font-size: 28px;
+  color: red;
+  font-weight: bold;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button .all {
+  background: var(--main_color);
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.button .all a {
+  color: #fff;
+  text-transform: capitalize;
+}
+.button .button1 {
+  padding: 10px 60px;
+}
+.button .button2 {
+  padding: 10px 85px;
+}
+.button .button3 {
+  padding: 10px 75px;
 }
